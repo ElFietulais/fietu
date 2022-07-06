@@ -1,20 +1,24 @@
 {
   "name": "fietu",
-  "version": "1.1.37",
+  "version": "1.1.38",
   "description": "Image generation library",
   "author": "El Fietulais",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "type": "commonjs",
+  "license": "ISC",
   "scripts": {
     "build": "tsc",
     "lint": "eslint --fix --ext .ts src"
   },
-  "keywords": [
-    "canvas",
-    "discord"
-  ],
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElFietulais/fietu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ElFietulais/fietu/issues"
+  },
+  "homepage": "https://github.com/ElFietulais/fietu#readme",
   "dependencies": {
     "canvas": "^2.9.0",
     "jimp": "^0.16.1"
@@ -24,5 +28,9 @@
     "@typescript-eslint/parser": "^5.30.0",
     "eslint": "^8.18.0",
     "typescript": "^4.7.4"
-  }
+  },
+  "keywords": [
+    "canvas",
+    "discord"
+  ]
 }
