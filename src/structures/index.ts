@@ -1,3 +1,3 @@
-export * from './Images.js'
-export * from './Love.js'
-export * from './Tweet.js'
+export * from './Images'
+export * from './Love'
+export * from './Tweet'

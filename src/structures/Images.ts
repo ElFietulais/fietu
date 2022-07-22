@@ -37,7 +37,7 @@ export class Canvas {
         if (!img) throw new Error('No se ha especificado una imagen')
 
         const image = await jimp.read(img)
-        image.pixelate(5)
+        image.pixelate(10)
         const buffer = await image.getBufferAsync(jimp.MIME_PNG)
         return buffer
     }
